@@ -41,7 +41,7 @@ log.addHandler(sh)
 # Set Filehandler instance and formatter
 # This creates a file where the logged data is stored
 # By default, mode is a, encoding is None, delay is False
-fh = logging.FileHandler(f"./log/{__name__}_data.log", mode="w")
+fh = logging.FileHandler(f"./log/{__name__}_data.log", mode="a")
 fh.setFormatter(formatter)
 # fh.setLevel(logging.DEBUG)
 log.addHandler(fh)

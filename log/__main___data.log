@@ -32,3 +32,12 @@
 2023-07-09 04:45:22,623 - __main__ - INFO - Run mapping function
 2023-07-09 04:45:22,629 - __main__ - INFO - Get filepath for pickle
 2023-07-09 04:45:22,802 - __main__ - INFO - Process Completed!
+2023-07-09 20:43:57,189 - __main__ - INFO - Starting Application
+2023-07-09 20:43:57,189 - __main__ - INFO - Creating Maps
+2023-07-09 20:43:57,189 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 20:43:57,189 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 20:43:57,189 - __main__ - INFO - Get filepath for pickle
+2023-07-09 20:43:57,189 - __main__ - INFO - Load Pickle file
+2023-07-09 20:43:57,190 - __main__ - INFO - Run mapping function
+2023-07-09 20:43:57,195 - __main__ - INFO - Get filepath for pickle
+2023-07-09 20:43:57,357 - __main__ - INFO - Process Completed!
