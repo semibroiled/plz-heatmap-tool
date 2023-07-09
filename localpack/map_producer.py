@@ -68,7 +68,7 @@ def embed_map(
     from IPython.display import IFrame
 
     # Generate File ID from Current Time
-    id = datetime.date.now().strftime("%d_%b_%y")
+    id = datetime.datetime.now().strftime("%d_%b_%y-%H_%M_%S")
 
     # Generate Name for Map Call
     filename = f"{filepath}/{id}"

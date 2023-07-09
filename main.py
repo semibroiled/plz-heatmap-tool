@@ -71,7 +71,7 @@ salve_greet = subparser.add_parser("salve")
 # Make argument parameters
 # Greetings!
 salve_greet.add_argument(
-    "--echo", type=str, help="Type your name for a customized greeting"
+    "echo", type=str, help="Type your name for a customized greeting"
 )
 
 # For Heatmap
@@ -79,8 +79,6 @@ salve_greet.add_argument(
 heatmap.add_argument(
     "--load",
     type=bool,
-    required=True,
-    default=True,
     help="Read from Savefile",
 )
 heatmap.add_argument(
@@ -161,7 +159,7 @@ def main() -> None:
                 embed_map(m_de, save_as_image=True)
                 log.info("Process Completed!")
 
-            if args.load == False:
+            else:
                 log.warning("Functionality not implemented yet")
 
                 # end = args.upto

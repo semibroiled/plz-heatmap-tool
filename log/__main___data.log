@@ -41,3 +41,74 @@
 2023-07-09 20:43:57,190 - __main__ - INFO - Run mapping function
 2023-07-09 20:43:57,195 - __main__ - INFO - Get filepath for pickle
 2023-07-09 20:43:57,357 - __main__ - INFO - Process Completed!
+2023-07-09 21:29:14,872 - __main__ - INFO - Starting Application
+2023-07-09 21:29:14,873 - __main__ - INFO - Creating Maps
+2023-07-09 21:29:14,873 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 21:29:14,873 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 21:29:14,873 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:29:14,873 - __main__ - INFO - Load Pickle file
+2023-07-09 21:29:14,875 - __main__ - INFO - Run mapping function
+2023-07-09 21:29:14,880 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:33:43,871 - __main__ - INFO - Starting Application
+2023-07-09 21:33:43,871 - __main__ - INFO - Creating Maps
+2023-07-09 21:33:43,871 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 21:33:43,871 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 21:33:43,871 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:33:43,871 - __main__ - INFO - Load Pickle file
+2023-07-09 21:33:43,873 - __main__ - INFO - Run mapping function
+2023-07-09 21:33:43,879 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:33:44,050 - __main__ - INFO - Process Completed!
+2023-07-09 21:34:00,509 - __main__ - INFO - Starting Application
+2023-07-09 21:34:00,509 - __main__ - INFO - Creating Maps
+2023-07-09 21:34:00,509 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 21:34:00,509 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 21:34:00,509 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:34:00,509 - __main__ - INFO - Load Pickle file
+2023-07-09 21:34:00,510 - __main__ - INFO - Run mapping function
+2023-07-09 21:34:00,512 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:34:00,679 - __main__ - INFO - Process Completed!
+2023-07-09 21:34:45,643 - __main__ - INFO - Starting Application
+2023-07-09 21:34:45,643 - __main__ - INFO - Creating Maps
+2023-07-09 21:34:45,643 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 21:34:45,643 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 21:34:45,643 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:34:45,643 - __main__ - INFO - Load Pickle file
+2023-07-09 21:34:45,644 - __main__ - INFO - Run mapping function
+2023-07-09 21:34:45,646 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:34:45,812 - __main__ - INFO - Process Completed!
+2023-07-09 21:34:54,347 - __main__ - INFO - Starting Application
+2023-07-09 21:34:54,347 - __main__ - INFO - Creating Maps
+2023-07-09 21:34:54,347 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 21:34:54,347 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 21:34:54,347 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:34:54,347 - __main__ - INFO - Load Pickle file
+2023-07-09 21:34:54,347 - __main__ - INFO - Run mapping function
+2023-07-09 21:34:54,349 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:34:54,475 - __main__ - INFO - Process Completed!
+2023-07-09 21:42:01,089 - __main__ - INFO - Starting Application
+2023-07-09 21:42:01,089 - __main__ - INFO - Creating Maps
+2023-07-09 21:42:01,089 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 21:42:01,089 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 21:42:01,089 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:42:01,089 - __main__ - INFO - Load Pickle file
+2023-07-09 21:42:01,090 - __main__ - INFO - Run mapping function
+2023-07-09 21:42:01,097 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:42:01,268 - __main__ - INFO - Process Completed!
+2023-07-09 21:42:05,581 - __main__ - INFO - Starting Application
+2023-07-09 21:42:05,581 - __main__ - INFO - Creating Maps
+2023-07-09 21:42:42,803 - __main__ - INFO - Starting Application
+2023-07-09 21:42:42,803 - __main__ - INFO - Creating Maps
+2023-07-09 21:42:42,803 - __main__ - INFO - Load is set to true. Running from savefile
+2023-07-09 21:42:42,803 - __main__ - INFO - Running Flow 1 - Run from Savefile
+2023-07-09 21:42:42,803 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:42:42,803 - __main__ - INFO - Load Pickle file
+2023-07-09 21:42:42,804 - __main__ - INFO - Run mapping function
+2023-07-09 21:42:42,810 - __main__ - INFO - Get filepath for pickle
+2023-07-09 21:42:42,982 - __main__ - INFO - Process Completed!
+2023-07-09 21:42:48,164 - __main__ - INFO - Starting Application
+2023-07-09 21:42:48,164 - __main__ - INFO - Creating Maps
+2023-07-09 21:42:48,164 - __main__ - WARNING - Functionality not implemented yet
+2023-07-09 21:43:44,089 - __main__ - INFO - Starting Application
+2023-07-09 21:43:44,090 - __main__ - INFO - Ily nihal my hobbi!
+2023-07-09 21:44:03,053 - __main__ - INFO - Starting Application
+2023-07-09 21:44:03,053 - __main__ - INFO - Ily niglu my hobbi!
