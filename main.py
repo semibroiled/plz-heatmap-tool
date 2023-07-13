@@ -78,6 +78,7 @@ salve_greet.add_argument(
 
 heatmap.add_argument(
     "--load",
+    "--Load",
     type=bool,
     help="Read from Savefile",
 )
