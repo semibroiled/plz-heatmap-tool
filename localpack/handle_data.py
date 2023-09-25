@@ -59,7 +59,9 @@ log.setLevel(logging.DEBUG)
 
 # Initialize Path to Import Files
 def declare_filepath(filename: str, extension: str = "csv") -> Path:
-    """_summary_
+    """
+    Read specified file from data directory in project code. Return the absolute path
+    of this file.
 
     Args:
         filename (str): _description_
@@ -79,7 +81,7 @@ def declare_filepath(filename: str, extension: str = "csv") -> Path:
 
 # Load Data to Python
 def load_df(
-    filepath: str,
+    filepath: Path,
     col_1: str = "Anmeldedatum",
     col_2: str = "Anmeldezeit",
     delimiter: str = ";",
@@ -143,7 +145,8 @@ def transform_df(
         DataFrame: _description_
     """
     if set_to_mdz:
-        df = df.loc[:, ["PLZ", "Datum"]]
+        df = df.loc[:, ["PLZ", "Date"]]
+        #! May need to change col to date depending on data entry
         df.dropna(axis=0, subset=[inspect_nans], inplace=True)
         df.loc[:, ["PLZ"]] = df.loc[:, ["PLZ"]].astype(str)
 
