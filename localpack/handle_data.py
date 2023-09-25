@@ -25,7 +25,8 @@ import logging
 root_directory_module = os.path.abspath(os.path.join(os.path.curdir, "localpack"))
 sys.path.append(root_directory_module)
 
-# import time
+# Import time
+import time
 
 
 # Setup Module Level Logging for our Running Application
@@ -48,7 +49,7 @@ log.addHandler(sh)
 # Set Filehandler instance and formatter
 # This creates a file where the logged data is stored
 # By default, mode is a, encoding is None, delay is False
-fh = logging.FileHandler(f"{__name__}_data.log", mode="a")
+fh = logging.FileHandler(f"./log/{__name__}_data.log", mode="a")
 fh.setFormatter(formatter)
 # fh.setLevel(logging.DEBUG)
 log.addHandler(fh)
@@ -59,7 +60,9 @@ log.setLevel(logging.DEBUG)
 
 # Initialize Path to Import Files
 def declare_filepath(filename: str, extension: str = "csv") -> Path:
-    """_summary_
+    """
+    Read specified file from data directory in project code. Return the absolute path
+    of this file.
 
     Args:
         filename (str): _description_
@@ -79,7 +82,7 @@ def declare_filepath(filename: str, extension: str = "csv") -> Path:
 
 # Load Data to Python
 def load_df(
-    filepath: str,
+    filepath: Path,
     col_1: str = "Anmeldedatum",
     col_2: str = "Anmeldezeit",
     delimiter: str = ";",
@@ -143,7 +146,8 @@ def transform_df(
         DataFrame: _description_
     """
     if set_to_mdz:
-        df = df.loc[:, ["PLZ", "Datum"]]
+        df = df.loc[:, ["PLZ", "Date"]]
+        #! May need to change col to date or datum depending on data entry
         df.dropna(axis=0, subset=[inspect_nans], inplace=True)
         df.loc[:, ["PLZ"]] = df.loc[:, ["PLZ"]].astype(str)
 
@@ -189,8 +193,7 @@ def my_geocoder(row: Series, zone: str = "DACH", switch: bool = True):
 
     try:
         if switch:
-            time.sleep(1.5)
-
+            # time.sleep(1.5)
             location = geolocator.geocode(row, country_codes="DE")
             point = location.point
 
@@ -230,6 +233,12 @@ def my_geocoder(row: Series, zone: str = "DACH", switch: bool = True):
     except ValueError as ve:
         log.error("Registered Error")
 
+        return {
+            "Latitude": None,
+            "Longitude": None,
+            "Address": None,
+        }
+    except:
         return {
             "Latitude": None,
             "Longitude": None,
