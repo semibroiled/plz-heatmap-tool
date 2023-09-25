@@ -38,3 +38,5 @@ current version is working on the test venv
 
 have to append stuff to make it work in a main env
 
+also add markers on key cities for later update
+
