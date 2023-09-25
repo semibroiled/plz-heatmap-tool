@@ -173,7 +173,7 @@ def main() -> None:
     except ValueError as ve:
         log.error(
             f"Value error. Check that your argument is the right type\
-                  \n{ve}"
+                \n{ve}"
         )
     except TypeError as te:
         log.error(f"{te}")
